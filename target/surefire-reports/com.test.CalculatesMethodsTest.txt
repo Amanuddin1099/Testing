@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.test.CalculatesMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+com.test.CalculatesMethodsTest.testSubtraction()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.test.CalculateMethods.Subtraction(int, int)" because "this.cal" is null
+	at com.test.CalculatesMethodsTest.testSubtraction(CalculatesMethodsTest.java:29)
+
+com.test.CalculatesMethodsTest.testAddition()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.test.CalculateMethods.addition(int, int)" because "this.cal" is null
+	at com.test.CalculatesMethodsTest.testAddition(CalculatesMethodsTest.java:36)
+
+com.test.CalculatesMethodsTest.testMultiply()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.test.CalculateMethods.multiply(int, int)" because "this.cal" is null
+	at com.test.CalculatesMethodsTest.testMultiply(CalculatesMethodsTest.java:43)
+
+com.test.CalculatesMethodsTest.testDivide()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.test.CalculateMethods.divide(int, int)" because "this.cal" is null
+	at com.test.CalculatesMethodsTest.testDivide(CalculatesMethodsTest.java:22)
+
