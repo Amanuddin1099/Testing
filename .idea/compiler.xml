@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Testing" />
         <module name="Git Work" />
+        <module name="Git mehedi" />
       </profile>
     </annotationProcessing>
   </component>
